@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZASBank</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .navbar, .footer-top {
+            background-color: #800080;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+        }
+        .navbar img {
+            height: 40px;
+            margin-right: 20px;
+        }
+        .navbar a, .footer-top a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            font-size: 18px;
+        }
+        .navbar a:hover, .footer-top a:hover {
+            background-color: #660066;
+            border-radius: 5px;
+        }
+        .content {
+            display: flex;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .card-container img {
+            width: 300px;
+            margin-bottom: 20px;
+        }
+        .card-description {
+            max-width: 500px;
+            margin-left: 40px;
+        }
+        .toxic-card {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .toxic-card h1 {
+            color: #800080;
+            font-size: 24px;
+        }
+        .footer {
+            background-color: #800080;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: auto;
+        }
+        .footer p {
+            max-width: 800px;
+            margin: 10px auto;
+            line-height: 1.5;
+        }
+        .reviews {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .reviews h2 {
+            font-size: 24px;
+            color: #800080;
+        }
+        .review {
+            background-color: #f4f4f4;
+            display: inline-block;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo.png" alt="Logo">
+        <a href="#">Główna</a>
+        <a href="#">Pomoc</a>
+        <a href="#">Karty</a>
+        <a href="#">Kredyty</a>
+    </div>
+
+ 
+    <div class="toxic-card">
+        <h1>Nowa karta!</h1>
+        <img src="img/toxic card.png" height="500" width="600" alt="Karta Toxic ZasBank">
+        <p>
+            🎮 **Karta Toxic ZasBank** – stworzona dla graczy! <br>
+            ✅ **Darmowe płatności w grach online** <br>
+            ✅ **Bonusy i zniżki na platformach Steam, PSN, Xbox Live** <br>
+            ✅ **Zwrot 5% na zakupach gier i sprzętu gamingowego** <br>
+            ✅ **Brak opłat za transakcje w e-sportowych turniejach** <br>
+            ✅ **Limit do 30 000 PLN** 
+        </p>
+    </div>
+
+    <div class="content">
+        <div class="card-container">
+            <img src="img/card.png" alt="Karta ZasBank">
+            <img src="img/card premium.png" alt="Karta Premium ZasBank">
+        </div>
+        <div class="card-description">
+            <h1>Karta kredytowa ZasBank – Twoja wygoda i bezpieczeństwo!</h1>
+            <p>
+                ✅ Limit kredytowy do 50 000 PLN – dostosowany do Twoich potrzeb <br>
+                ✅ Bezpłatne prowadzenie przez pierwszy rok <br>
+                ✅ Szybkie i bezpieczne płatności zbliżeniowe <br>
+                ✅ Brak opłat za transakcje zagraniczne <br>
+                ✅ Możliwość rozłożenia płatności na raty 0%
+            </p>
+            <h1>Karta Premium ZasBank – ekskluzywność i wygoda!</h1>
+            <p>
+                ✅ **Limit kredytowy do 100 000 PLN** <br>
+                ✅ **2 lata darmowego prowadzenia karty** <br>
+                ✅ **Ubezpieczenie podróżne w cenie karty** <br>
+                ✅ **Dostęp do saloników lotniskowych na całym świecie** <br>
+                ✅ **Osobisty concierge 24/7** <br>
+                ✅ **Podwyższony cashback do 7%** <br>
+                ✅ **Programy ekskluzywnych zniżek i bonusów** <br>
+                ✅ **Najwyższy poziom bezpieczeństwa i ochrony płatności** <br>
+            </p>
+        </div>
+    </div>
+
+   
+    <div class="reviews">
+        <h2>Opinie użytkowników</h2>
+        <div class="review">
+            ⭐️⭐️⭐️⭐️⭐️ <br> 
+            "Najlepsza karta do gier! Bonusy na Steam i PSN są świetne!" <br> 
+            <b>- Karol M.</b>
+        </div>
+        <div class="review">
+            ⭐️⭐️⭐️⭐️⭐️ <br> 
+            "Korzystam z karty Premium i jestem bardzo zadowolony. Wygodne podróżowanie i brak opłat!" <br> 
+            <b>- Anna W.</b>
+        </div>
+        <div class="review">
+            ⭐️⭐️⭐️⭐️ <br> 
+            "Dobry cashback, ale chciałbym więcej promocji dla restauracji." <br> 
+            <b>- Piotr K.</b>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-top">
+            <a href="#">O nas</a>
+            <a href="#">Regulamin</a>
+            <a href="#">Polityka prywatności</a>
+            <a href="#">Kontakt</a>
+        </div>
+        <h2>O ZASBank</h2>
+        <p>
+            ZASBank to nowoczesny bank, który łączy innowacyjne rozwiązania finansowe z tradycyjną jakością obsługi. 
+            Nasze karty kredytowe oferują **najlepsze warunki na rynku**, bezpieczeństwo oraz liczne korzyści dla naszych klientów.
+        </p>
+        <p>
+            Naszym priorytetem jest komfort użytkowników – zapewniamy **bezproblemowe transakcje**, wysokie limity kredytowe 
+            oraz atrakcyjne programy lojalnościowe. Dołącz do nas już dziś!
+        </p>
+    </div>
+</body>
+</html>
